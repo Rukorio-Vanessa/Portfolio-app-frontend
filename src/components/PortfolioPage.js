@@ -1,4 +1,13 @@
 import React from 'react'
-function PortfolioPage(){}
+import Projects from './Projects';
+import Skills from './Skills';
+function Portfoliopage(){
+    return(
+        <div>
+            <Projects/>
+            <Skills/>
+        </div>
+    )
+}
 
-export default PortfolioPage;
+export default Portfoliopage;

@@ -6,6 +6,7 @@ import './App.css'
 import Projects from './components/Projects';
 import Register from './components/Register';
 import Skills from './components/Skills';
+import PortfolioPage from './components/PortfolioPage';
 
 
 function App() {
@@ -22,10 +23,18 @@ function App() {
       <Route path='/'>
         <Home />
       </Route>
+      <Route path='/portfoliopage'>
+        <Register/>
+      </Route>
+      <Route path='/projects'>
+        <Register/>
+      </Route>
+      <Route path='/register'>
+        <Register/>
+      </Route>
     </Switch>
     </BrowserRouter>
     <Projects/>
-    <Skills/>
     </div>
   );
 }

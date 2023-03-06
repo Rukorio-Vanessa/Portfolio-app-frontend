@@ -1,5 +1,7 @@
 import React from "react";
 import { useState } from "react";
+import { Link } from "react-router-dom";
+
 
 function Register(){
 
@@ -16,11 +18,8 @@ function Register(){
         return;
       }
   
-      // perform registration logic here
-      // ...
+      //Registration logic
   
-      // redirect to another page on success
-      window.location.href = '/projects';
     };
   
     return (
@@ -39,7 +38,7 @@ function Register(){
             <label>Confirm Password:</label>
             <input type="password" value={confirmPassword} onChange={(e) => setConfirmPassword(e.target.value)} />
           </div>
-          <button type="submit">Register</button>
+          <Link type="login-button" className="btn cancelbtn mx-auto" to="/portfoliopage">Register</Link> 
         </form>
       </div>
     );

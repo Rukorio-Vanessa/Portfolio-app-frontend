@@ -1,8 +1,8 @@
 import React from "react";
 import { useState } from "react";
-import ReactDOM  from "react-dom";
-import validator from 'validator';
 import Navbar from "./Navbar";
+import { Link } from "react-router-dom";
+
 
 
 
@@ -50,9 +50,9 @@ function Login(){
           <input type="text" value={username} onChange={handleUsernameChange} />
         </label>
         <br />
-        <button type="submit" >
-        <a className="logbtn" href="/projects"> Login</a> 
-        </button>
+        <Link type="login-button" className="btn cancelbtn mx-auto" to="/portfoliopage" >Log In</Link>
+        <Link type="login-button" className="btn cancelbtn mx-auto" to="/register" >Register</Link> 
+ 
       </form>
     </div>
   );
