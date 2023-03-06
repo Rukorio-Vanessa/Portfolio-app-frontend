@@ -1,8 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import Navbar from "./Navbar";
 import { Link } from "react-router-dom";
-
 
 
 
@@ -31,25 +29,24 @@ function Login(){
   };
 
   return (
-    <div>
-      <Navbar/>
+    <div id="log-in-form"> 
       <h2>Sign In</h2>
       <form onSubmit={handleSubmit}>
-        <label>
-          Email:
-          <input type="email" value={email} onChange={handleEmailChange} />
-        </label>
-        <br />
-        <label>
-          Password:
-          <input type="password" value={password} onChange={handlePasswordChange} />
-        </label>
-        <br />
         <label>
           Username:
           <input type="text" value={username} onChange={handleUsernameChange} />
         </label>
-        <br />
+        <br/>
+        <label>
+          Email:
+          <input type="email" value={email} onChange={handleEmailChange} />
+        </label>
+        <br/>
+        <label>
+          Password:
+          <input type="password" value={password} onChange={handlePasswordChange} />
+        </label>
+        <br/>
         <Link type="login-button" className="btn cancelbtn mx-auto" to="/portfoliopage" >Log In</Link>
         <Link type="login-button" className="btn cancelbtn mx-auto" to="/register" >Register</Link> 
  

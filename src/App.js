@@ -7,10 +7,13 @@ import Projects from './components/Projects';
 import Register from './components/Register';
 import Skills from './components/Skills';
 import PortfolioPage from './components/PortfolioPage';
+import Portfoliopage from './components/PortfolioPage';
 
 
 function App() {
   return (
+
+    
     <div className="App">
       <BrowserRouter>
     <Switch>
@@ -34,7 +37,6 @@ function App() {
       </Route>
     </Switch>
     </BrowserRouter>
-    <Projects/>
     </div>
   );
 }

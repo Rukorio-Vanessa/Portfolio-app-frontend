@@ -9,7 +9,6 @@ function Navbar(){
 
             <h3 className="navbar-brand">MY PORTFOLIO</h3>
             <NavLink to="/">Home</NavLink> 
-            <NavLink to="/login">Log in </NavLink>
             <NavLink to="/register">Sign up</NavLink>
             
             

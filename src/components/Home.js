@@ -1,4 +1,5 @@
 import React from "react";
+import Login from "./Login";
 import Navbar from "./Navbar";
 function Home(){
     return(
@@ -6,7 +7,7 @@ function Home(){
             <Navbar/>
             
       <div className="home-body" id="home">
-        <h1>Welcome To Your Portfolio Page!</h1>
+        <h1>Welcome To MyPortfolio</h1>
 
         <h2 className="heading-2"> Please Log In to Proceed </h2>
 
@@ -15,6 +16,7 @@ function Home(){
         </p>
 
         </div>
+          <Login/>
         </div>
     );
 }
