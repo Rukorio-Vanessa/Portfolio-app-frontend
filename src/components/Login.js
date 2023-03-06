@@ -50,7 +50,9 @@ function Login(){
           <input type="text" value={username} onChange={handleUsernameChange} />
         </label>
         <br />
-        <input type="submit" value="Login" />
+        <button type="submit" >
+        <a className="logbtn" href="/projects"> Login</a> 
+        </button>
       </form>
     </div>
   );

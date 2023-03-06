@@ -5,6 +5,7 @@ import Login from './components/Login'
 import './App.css'
 import Projects from './components/Projects';
 import Register from './components/Register';
+import Skills from './components/Skills';
 
 
 function App() {
@@ -23,6 +24,8 @@ function App() {
       </Route>
     </Switch>
     </BrowserRouter>
+    <Projects/>
+    <Skills/>
     </div>
   );
 }
