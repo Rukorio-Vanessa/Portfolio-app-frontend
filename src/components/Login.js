@@ -25,13 +25,16 @@ function Login(){
   };
 
 
-  
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    // POST mthd
+  };
 
   return (
     <div>
       <Navbar/>
       <h2>Sign In</h2>
-      <form >
+      <form onSubmit={handleSubmit}>
         <label>
           Email:
           <input type="email" value={email} onChange={handleEmailChange} />
