@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Login from './components/Login'
 import './App.css'
 import Projects from './components/Projects';
+import Register from './components/Register';
 
 
 function App() {
@@ -11,6 +12,9 @@ function App() {
     <div className="App">
       <BrowserRouter>
     <Switch>
+     <Route path='/register'>
+        <Register/>
+      </Route>
       <Route path='/login'>
         <Login />
       </Route>
@@ -19,7 +23,6 @@ function App() {
       </Route>
     </Switch>
     </BrowserRouter>
-    <Projects/>
     </div>
   );
 }
