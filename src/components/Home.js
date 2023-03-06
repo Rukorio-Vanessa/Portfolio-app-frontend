@@ -1,6 +1,7 @@
 import React from "react";
 import Login from "./Login";
 import Navbar from "./Navbar";
+import Skills from "./Skills";
 function Home(){
     return(
         <div className="home-container">
@@ -17,6 +18,7 @@ function Home(){
 
         </div>
           <Login/>
+          <Skills/>
         </div>
     );
 }

@@ -47,7 +47,7 @@ function Login(){
           <input type="password" value={password} onChange={handlePasswordChange} />
         </label>
         <br/>
-        <Link type="login-button" className="btn cancelbtn mx-auto" to="/portfoliopage" >Log In</Link>
+        <Link type="login-button" className="btn cancelbtn mx-auto" to="/skills" >Log In</Link>
         <Link type="login-button" className="btn cancelbtn mx-auto" to="/register" >Register</Link> 
  
       </form>

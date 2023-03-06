@@ -44,9 +44,9 @@ function Skills(){
     };
   
     return (
-      <div className='form'>
-        <h2>My Skills</h2>
-        <form onSubmit={handleAddSkill}>
+      <div className='form' id="skills-div">
+        <h2 id="skills-header">My Skills</h2>
+        <form onSubmit={handleAddSkill} id="skills-form">
           <label htmlFor="new-skill">Enter Skill:</label>
           <input
             type="text"
