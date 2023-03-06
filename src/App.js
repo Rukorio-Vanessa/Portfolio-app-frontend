@@ -8,7 +8,7 @@ import './App.css'
 function App() {
   return (
     <div className="App">
-    <BrowserRouter>
+      <BrowserRouter>
     <Switch>
       <Route path='/login'>
         <Login />
@@ -18,7 +18,6 @@ function App() {
       </Route>
     </Switch>
     </BrowserRouter>
-    
     </div>
   );
 }

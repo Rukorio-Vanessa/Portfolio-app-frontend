@@ -5,7 +5,7 @@ function Home(){
         <div className="home-container">
             <Navbar/>
             
-      <div className="meme-body" id="home">
+      <div className="home-body" id="home">
         <h1>Welcome To Your Portfolio Page!</h1>
 
         <h2 className="heading-2"> Please Log In to Proceed </h2>
