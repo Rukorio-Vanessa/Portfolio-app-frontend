@@ -1,6 +1,7 @@
 import React from "react";
 import Login from "./Login";
 import Navbar from "./Navbar";
+import Projects from "./Projects";
 import Skills from "./Skills";
 function Home(){
     return(
@@ -19,6 +20,7 @@ function Home(){
         </div>
           <Login/>
           <Skills/>
+          <Projects/>
         </div>
     );
 }
