@@ -8,6 +8,7 @@ import Register from './components/Register';
 import Skills from './components/Skills';
 import PortfolioPage from './components/PortfolioPage';
 import Portfoliopage from './components/PortfolioPage';
+import Navbar from './components/Navbar';
 
 
 function App() {
@@ -20,11 +21,11 @@ function App() {
      <Route path='/register'>
         <Register/>
       </Route>
-      <Route path='/login'>
-        <Login />
+      <Route path='/home'>
+        <Home />
       </Route>
       <Route path='/'>
-        <Home />
+        <Login />
       </Route>
       <Route path='/portfoliopage'>
         <Register/>

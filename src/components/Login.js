@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import Navbar from "./Navbar";
 
 
 
@@ -29,6 +30,8 @@ function Login(){
   };
 
   return (
+    <div>
+      <Navbar/>
     <div id="log-in-form"> 
       <h2>Sign In</h2>
       <form onSubmit={handleSubmit}>
@@ -51,6 +54,7 @@ function Login(){
         <Link type="login-button" className="btn cancelbtn mx-auto" to="/register" >Register</Link> 
  
       </form>
+    </div>
     </div>
   );
 }
