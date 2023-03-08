@@ -33,6 +33,9 @@ function App() {
       <Route path='/projects'>
         <Register/>
       </Route>
+      <Route path='/skills'>
+        <Skills/>
+      </Route>
       <Route path='/register'>
         <Register/>
       </Route>
