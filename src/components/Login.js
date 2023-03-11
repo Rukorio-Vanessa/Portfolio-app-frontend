@@ -31,7 +31,6 @@ function Login(){
 
   return (
     <div>
-      <Navbar/>
     <div id="log-in-form"> 
       <h2>Sign In</h2>
       <form onSubmit={handleSubmit}>
@@ -50,7 +49,7 @@ function Login(){
           <input type="password" value={password} onChange={handlePasswordChange} />
         </label>
         <br/>
-        <Link type="login-button" className="btn cancelbtn mx-auto" to="/skills" >Log In</Link>
+        <Link type="login-button" className="btn cancelbtn mx-auto" to="/home" >Log In</Link>
         <Link type="login-button" className="btn cancelbtn mx-auto" to="/register" >Register</Link> 
  
       </form>

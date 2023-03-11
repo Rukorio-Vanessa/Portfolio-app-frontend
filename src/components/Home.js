@@ -18,10 +18,7 @@ function Home(){
         </p>
 
         </div>
-          <Login/>
-          <Skills/>
-          <Projects/>
-        </div>
+      </div>
     );
 }
 
