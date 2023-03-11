@@ -1,6 +1,7 @@
 import React from "react";
 import Login from "./Login";
 import Navbar from "./Navbar";
+import Projectlist from "./ProjectList";
 import Projects from "./Projects";
 import Skills from "./Skills";
 function Home(){
@@ -17,6 +18,7 @@ function Home(){
           MyPortfolio offers a quick and easy way for you to handle your projects and skills
         </p>
         <h3>My Projects</h3>
+        <Projectlist/>
         <h3>My Skills</h3>
         </div>
       </div>

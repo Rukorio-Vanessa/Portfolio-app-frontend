@@ -6,9 +6,7 @@ import './App.css'
 import Projects from './components/Projects';
 import Register from './components/Register';
 import Skills from './components/Skills';
-import PortfolioPage from './components/PortfolioPage';
-import Portfoliopage from './components/PortfolioPage';
-import Navbar from './components/Navbar';
+import Projectlist from './components/ProjectList';
 
 
 function App() {
@@ -21,6 +19,8 @@ function App() {
           <Route path="/home" element={<Home />} />
           <Route path="/skills" element={<Skills />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path="/projectlist" element={<Projectlist />} />
+
       </Routes>
     </div>
   );
