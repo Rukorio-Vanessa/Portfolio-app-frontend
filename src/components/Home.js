@@ -16,7 +16,8 @@ function Home(){
         <p>
           MyPortfolio offers a quick and easy way for you to handle your projects and skills
         </p>
-
+        <h3>My Projects</h3>
+        <h3>My Skills</h3>
         </div>
       </div>
     );

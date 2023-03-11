@@ -1,5 +1,6 @@
 import React from "react";
 import { useState, useEffect } from 'react';
+import Navbar from "./Navbar";
 
 const SKILLS_LIMIT = 10;
 
@@ -44,6 +45,8 @@ function Skills(){
     };
   
     return (
+      <div>
+        <Navbar/>
       <div className='form' id="skills-div">
         <h2 id="skills-header">My Skills</h2>
         <form onSubmit={handleAddSkill} id="skills-form">
@@ -79,6 +82,7 @@ function Skills(){
         ) : (
           <p>Add your skills here</p>
         )}
+      </div>
       </div>
     );
   }

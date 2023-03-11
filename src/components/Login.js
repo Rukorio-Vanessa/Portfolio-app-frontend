@@ -31,6 +31,10 @@ function Login(){
 
   return (
     <div>
+      <div id="log-in-intro">
+        <h1>Welcome To MyPortfolio</h1>
+        <h2>Login to proceed</h2>
+      </div>
     <div id="log-in-form"> 
       <h2>Sign In</h2>
       <form onSubmit={handleSubmit}>

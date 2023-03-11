@@ -8,8 +8,10 @@ function Navbar(){
           <div className="container">
 
             <h3 className="navbar-brand">MY PORTFOLIO</h3>
-            <NavLink to="/">Home</NavLink> 
-            <NavLink to="/register">Sign up</NavLink>
+            <NavLink to="/home">Home</NavLink> 
+            <NavLink to="/skills">Add Skills</NavLink>
+            <NavLink to="/projects">Add Projects</NavLink>
+
             
             
           </div>

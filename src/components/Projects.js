@@ -1,5 +1,6 @@
 import React from "react";
 import { useState, useEffect } from "react";
+import Navbar from "./Navbar";
 
 
 
@@ -54,6 +55,8 @@ function Projects(){
   };
 
   return (
+    <div>
+      <Navbar/>
     <div className="form">
       <h2>My Projects</h2>
       <form onSubmit={handleAddProject}>
@@ -110,6 +113,7 @@ function Projects(){
         <p>Add your projects here</p>
       )}
     </div>
+  </div>
   );
     
 
