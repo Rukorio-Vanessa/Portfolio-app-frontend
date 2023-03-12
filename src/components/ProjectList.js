@@ -6,6 +6,7 @@ function Projectlist(){
 
     return(
         <div>
+        <h2>My Projects</h2>
         <ul>
           {projects.map((project, index) => (
             <li key={index}>
