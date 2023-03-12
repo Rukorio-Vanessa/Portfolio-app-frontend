@@ -7,6 +7,7 @@ import Projects from './components/Projects';
 import Register from './components/Register';
 import Skills from './components/Skills';
 import Projectlist from './components/ProjectList';
+import Logout from './components/Logout';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route path="/skills" element={<Skills />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/projectlist" element={<Projectlist />} />
+          <Route path="/logout" element={<Logout />} />
 
       </Routes>
     </div>
